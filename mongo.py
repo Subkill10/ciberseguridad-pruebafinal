@@ -20,6 +20,6 @@ try:
 except Exception as e:
     print(e)
 
-client .get_database('prueba').get_collection('BJ').insert_one(document={"marca":"opel","modelo":"omega"})
+client .get_database('prueba').get_collection('BJ').insert_one(document={"Ciudad":"Quito","Velocidad viento":"16"})
 
-client .get_database('prueba').get_collection('Final').insert_one(document={"Tiempo":"soleado","Estación":"Verano"})
+client .get_database('prueba').get_collection('BJ').insert_one(document={"Tiempo":"soleado","Estación":"Verano"})

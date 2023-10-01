@@ -13,5 +13,9 @@ def hello_world():
 def hello_api():
     return get_wind_spped("Quito,Ec")
 
+@app.route("/api/")
+def hello_api():
+    return get_wind_spped("Quito,Ec")
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
